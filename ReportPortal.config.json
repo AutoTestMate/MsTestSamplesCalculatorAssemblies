@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/reportportal/agent-net-vstest/master/ReportPortal.VSTest.TestLogger/ReportPortal.config.schema",
+  "enabled": true,
+  "server": {
+    "url": "http://192.168.1.111:8082/api/v1/",
+    "project": "superadmin_personal",
+    "authentication": {
+      "uuid": "1553ab80-1fec-49cc-a977-47e52c42d7a8"
+    }
+  },
+  "launch": {
+    "name": "AutoTestMate Calculator Samples MsTest Selenium Grid Tests",
+    "description": "This is a Test Run of the AutoTestMate MsTest Calculator Samples with Selenium Grid setup with containers.",
+    "debugMode": false,
+    "tags": [ "AutoTestMate", "Samples", "MSTEST", "SeleniumGrid", "Calculator" ]
+  }
+}
